@@ -1,62 +1,41 @@
-.top_header {
-  color: white;
-  padding-top: 12px;
-  padding-right: 12px;
-  padding-bottom: 12px;
-  padding-left: 12px;
-  font-size: 30px;
-  background-color: rgb(168, 30, 30);
-}
-
-.right {
-    text-align: right;
-}
-
-.left {
-    text-align: left;
-}
-
-a:link {
-  color: white;
-}
-
-.gray_menu {
-  color: white;
-  font-size: 20px;
-  background-color: rgb(86, 81, 81);
-  padding-top: 12px;
-  padding-right: 12px;
-  padding-bottom: 12px;
-  padding-left: 12px;
-}
-
-.main_background {
-  padding-bottom: 1000px;
-  line-height: 26px;
-  border-radius: 4px;
+body {
   background-color: white;
 }
+.title {
+  padding: 20px;
+  size: 48px
+  text-align: left
+  background-color: darkred;
+  color: white;
+}
 
-h1 {
-  font-size: 25px;
+.nav {
+  padding: 20px;
+  size: 10px;
+  text-align: right;
+  background-color: darkgrey;
+  color: white;
+}
+
+.left-main {
+  size: 28px;
+  text-align: left;
   color: black;
-  font-weight: bold;
 }
 
-h2 {
-  font-size: 20px;
-  color: black;
-  font-weight: bold;
+.content {
+  size: 12px;
+  text-align: left;
+  color: black
 }
 
-.side1 {
-    float: left;
-    width: 66%;
-    background: white;
-    padding: 20px;
+.right-main {
+  size: 18px;
 }
 
-.side2 {
-    width: 28%;
-    float: right;
+.footer {
+  padding: 20px;
+  background-color: grey;
+  color: white;
+  size: 12px
 }
